@@ -4,9 +4,8 @@ Everything that both the tracking MPC and the keyboard demo need lives here:
 the MuJoCo handle, the physical parameters read out of the model.
 """
 
-# This is for my laptop. you may comment it out.
 import os
-
+# This is for my laptop. you may comment it out.
 os.environ.setdefault("__NV_PRIME_RENDER_OFFLOAD", "1")  # NVIDIA Optimus/PRIME
 os.environ.setdefault("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
 os.environ.setdefault("OPENBLAS_NUM_THREADS", "1")  # tiny matrices: threads hurt
