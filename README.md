@@ -5,6 +5,8 @@ This project started as my attempt at a fast tracking-MPC solver built with JAX 
 
 The plant is the Skydio X2 from [MuJoCo Menagerie](https://github.com/google-deepmind/mujoco_menagerie/tree/main/skydio_x2) (1.325 kg, thrust/weight 4.0). Mass, inertia, and the thrust/torque mixer are all read out of the model, not hardcoded.
 
+![3D Quadrotor Trajectory Tracking With Singularity-Free MPC](https://img.youtube.com/vi/Ecu-_opkJgM/maxresdefault.jpg)](https://youtu.be/Ecu-_opkJgM)
+
 # How fast is it
 
 Here is a measured run on an **Intel Core i5-12450H**, Linux, Python 3.11.15, with **JAX on CPU** and its default 32-bit precision:
